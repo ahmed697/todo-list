@@ -1,0 +1,23 @@
+<section>
+    <div class="content">
+        <div class="recette">
+            <h1>Recette</h1>
+            <p *ngFor="let listItem of liste; let i = index">
+                {{listItem.quantite}}
+                {{listItem.legume.icon}}
+                {{listItem.legume.name}}
+                <button (click)="deleteLegumes(i)">-</button>
+            </p>
+        </div>
+        <div class="ingredients" >
+            <h1>ingredients</h1>
+            <p *ngFor="let legume of legumes; let i = index">
+                {{legume.icon}}
+                {{legume.name}}
+                <button  (click)="addLegumes(legume)">+</button>
+            </p>
+
+        </div>
+    </div>
+
+</section>

@@ -1,0 +1,26 @@
+
+
+
+nav{
+    background-color: aliceblue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 55%;
+    width: 100%;
+        a{
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            transition: 400ms;
+        }
+        a:hover{
+            transition: 400ms;
+            color: violet;
+        }
+}
+}

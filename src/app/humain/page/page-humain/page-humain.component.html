@@ -1,0 +1,13 @@
+<div class="ajtHumain" >
+    <h1>Ajouter des hommes</h1>
+    <button *ngFor="let humain of humains; let i = index" (click)="Ajouter(humain)">
+    Ajouter{{humain.icon}}
+    </button>
+</div>
+
+<div class="listHumain">
+    <h1>Votre liste d'humain</h1>
+    <button class="suppr" *ngFor="let humain of lists; let i = index" (click)="deleteHumain(i)">
+    Supprimer{{humain.icon}}
+    </button>
+</div>

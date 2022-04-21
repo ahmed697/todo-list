@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import "bootstrap";
+
+html,
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    // Change la couleur de fond de toute l'apllication
+    background: rgb(205, 228, 236);
+    // Change la police par défaut de notre application
+    font-family: 'Roboto', sans-serif;
+}
