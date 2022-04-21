@@ -17,6 +17,7 @@ describe('PageHumainComponent', () => {
     fixture = TestBed.createComponent(PageHumainComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    console.log('menfou')
   });
 
   it('should create', () => {
